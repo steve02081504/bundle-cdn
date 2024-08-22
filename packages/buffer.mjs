@@ -1,2 +1,2 @@
-import { Buffer } from 'buffer'
-export default Buffer
+import * as exports from 'buffer'
+export default exports
