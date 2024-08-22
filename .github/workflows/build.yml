@@ -1,0 +1,29 @@
+name: build
+
+permissions:
+  contents: write
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 7 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up npm
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: git add all
+        run: git add -A
+      - name: push
+        uses: actions-go/push@master
+        with:
+          author-email: taromati2@outlook.com
+          author-name: Taromati2
+          commit-message: 'file update~'
+          remote: origin
+          token: ${{ secrets.GITHUB_TOKEN }}

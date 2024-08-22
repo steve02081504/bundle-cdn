@@ -1,0 +1,29 @@
+{
+	"name": "bundle-cdn",
+	"version": "0.0.0",
+	"description": "my bundle cdn",
+	"scripts": {
+		"build": "rollup -c ./src/rollup.config.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/steve02081504/bundle-cdn.git"
+	},
+	"author": "steve02081504",
+	"bugs": {
+		"url": "https://github.com/steve02081504/bundle-cdn/issues"
+	},
+	"homepage": "https://github.com/steve02081504/bundle-cdn#readme",
+	"dependencies": {
+		"buffer": "latest",
+		"node-unrar-js": "latest"
+	},
+	"devDependencies": {
+		"@rollup/plugin-json": "latest",
+		"@rollup/plugin-commonjs": "latest",
+		"@rollup/plugin-node-resolve": "latest",
+		"@rollup/plugin-terser": "latest",
+		"rollup": "latest",
+		"rollup-plugin-polyfill-node": "latest"
+	}
+}
