@@ -29,4 +29,15 @@ export default [
 		},
 		plugins,
 	},
+	{
+		input: 'packages/showdown-highlight.mjs',
+		output: {
+			name: 'showdown_highlight',
+			strict: false,
+			file: 'dist/showdown-highlight.js',
+			format: 'iife',
+			sourcemap: true
+		},
+		plugins,
+	},
 ]

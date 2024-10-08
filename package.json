@@ -16,7 +16,9 @@
 	"homepage": "https://github.com/steve02081504/bundle-cdn#readme",
 	"dependencies": {
 		"buffer": "latest",
-		"node-unrar-js": "latest"
+		"node-unrar-js": "latest",
+		"showdown-highlight": "latest",
+		"highlight.js": "latest"
 	},
 	"devDependencies": {
 		"@rollup/plugin-json": "latest",
