@@ -51,4 +51,15 @@ export default [
 		},
 		plugins,
 	},
+	{
+		input: 'packages/markdown-it-highlightjs.mjs',
+		output: {
+			name: 'markdown_it_highlightjs',
+			strict: false,
+			file: 'dist/markdown-it-highlightjs.js',
+			format: 'iife',
+			sourcemap: true
+		},
+		plugins,
+	},
 ]

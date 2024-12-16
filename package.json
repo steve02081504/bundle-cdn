@@ -20,7 +20,8 @@
 		"showdown-highlight": "latest",
 		"highlight.js": "latest",
 		"markdown-it-katex": "latest",
-		"katex": "latest"
+		"katex": "latest",
+		"markdown-it-highlightjs": "latest"
 	},
 	"devDependencies": {
 		"@rollup/plugin-json": "latest",
