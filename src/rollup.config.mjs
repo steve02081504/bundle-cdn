@@ -40,4 +40,15 @@ export default [
 		},
 		plugins,
 	},
+	{
+		input: 'packages/markdown-it-katex.mjs',
+		output: {
+			name: 'markdown_it_katex',
+			strict: false,
+			file: 'dist/markdown-it-katex.js',
+			format: 'iife',
+			sourcemap: true
+		},
+		plugins,
+	},
 ]

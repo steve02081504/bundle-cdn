@@ -18,7 +18,9 @@
 		"buffer": "latest",
 		"node-unrar-js": "latest",
 		"showdown-highlight": "latest",
-		"highlight.js": "latest"
+		"highlight.js": "latest",
+		"markdown-it-katex": "latest",
+		"katex": "latest"
 	},
 	"devDependencies": {
 		"@rollup/plugin-json": "latest",
